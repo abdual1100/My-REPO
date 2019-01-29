@@ -1,0 +1,4 @@
+start = xml
+xml = element xml{line+}
+line = element line{mixed{(person | place | Structure)*}}
+
