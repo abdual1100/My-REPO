@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Ozymandias>
-    <line>I met <person>a traveller</person> from <Place>an antique land</Place>,</line>
-        <line>Who said—“Two vast and <Structure>trunkless legs of stone</Structure> </line>
-    <line>Stand in the <place>desert</place>. . . . Near them, on the sand,</line>
+<?xml-model href="ozymandias1.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <line>I met <person traveler= "exploring">a traveller</person> from <place location="mystery">an antique land</place>,</line>
+    <line>Who said—“Two vast and <Structure Looking="relaxing">trunkless legs of stone</Structure> </line>
+    <line>Stand in the <place Viewing="Mission">desert</place>. . . . Near them, on the sand,</line>
     <line>Half sunk a shattered visage lies, whose frown,</line>
     <line>And wrinkled lip, and sneer of cold command,</line>
-    <line>Tell that its <person>sculptor</person> well those passions read</line>
-    <line>Which yet survive, <Structure>stamped on these lifeless things</Structure>,</line>
+    <line>Tell that its <person crafter="major">sculptor</person> well those passions read</line>
+    <line>Which yet survive, <Structure Items= "Nature">stamped on these lifeless things</Structure>,</line>
     <line>The hand that mocked them, and the heart that fed;</line>
     <line>And on the pedestal, these words appear:</line>
-    <line>My name is <person>Ozymandias, King of Kings</person>;</line>
+    <line>My name is <person Important="Creature">Ozymandias, King of Kings</person>;</line>
     <line>Look on my Works, ye Mighty, and despair!</line>
-    <line>Nothing beside remains. Round the decay</line>
-    <line>Of that colossal Wreck, boundless and bare</line>
-    <line>The lone and level sands stretch far away.”</line>
-</Ozymandias>
+    <line>Nothing beside remains. <Structure Describing="objects">Round the decay</Structure></line>
+    <line>Of that <Collision Outcome="Hoping" >colossal Wreck, boundless and bare</Collision></line>
+    <line>The <Collision Better="peace" >alone and level sands stretch far away</Collision>.”</line>
+</xml>

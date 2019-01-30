@@ -1,4 +1,18 @@
 start = xml
 xml = element xml{line+}
-line = element line{mixed{(person | place | Structure)*}}
+line = element line{mixed{(person | place | Structure | Collision)*}}
+Collision = element Collision{(Outcome*, Better*, text*)}
+person = element person{(traveler*, crafter*, Important*, text*)}
+place = element place{(Viewing*, location*, text*)}
+Structure = element Structure {(Items*, Describing*, Looking*, text*)}
+traveler = attribute traveler{"exploring"}
+Important = attribute Important{"Creature"}
+crafter = attribute crafter{"major"}
+Viewing = attribute Viewing{"Mission"}
+Items = attribute Items{"Nature"}
+Describing = attribute Describing{"objects"}
+Looking = attribute Looking{"relaxing"}
+Outcome = attribute Outcome{"Hoping"}
+Better = attribute Better{"peace"}
+location = attribute location{"mystery"}
 
